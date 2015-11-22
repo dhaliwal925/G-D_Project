@@ -1,4 +1,4 @@
-## Checks to see if file with household data exists in working directory, downloads and extracts file if missing
+## Checks to see if directory with data exists in working directory, downloads and extracts file if missing
 if (!dir.exists("UCI HAR Dataset"))
 	{
 		temp <- tempfile()
