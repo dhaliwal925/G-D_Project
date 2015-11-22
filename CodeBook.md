@@ -55,3 +55,13 @@ are presented in the data output files of this script:
 
 >mean(): Mean value
 >std(): Standard deviation
+
+There were three additional columns appened to the data to obtain `final_set`:
+data_set: data set where the data were obtained from (test or train)
+subjects: subject whose data was recorded (1:30)
+activity_type: activity that was being performed (WALKING, LAYING, SITTING, STANDING, 
+			WALKING DOWNSTAIRS, WALKING UPSTAIRS)
+			
+Using data from `final_set`, an additonal data set was created that houses the mean values based
+on subject and activity - this data set does not containg the `data_set` variable. It determines
+the mean on aggregate data from both the `test` and `train` data sets.
