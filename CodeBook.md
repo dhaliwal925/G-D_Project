@@ -62,6 +62,6 @@ subjects: subject whose data was recorded (1:30)
 activity_type: activity that was being performed (WALKING, LAYING, SITTING, STANDING, 
 			WALKING DOWNSTAIRS, WALKING UPSTAIRS)
 			
-Using data from `final_set`, an additonal data set was created that houses the mean values based
+Using data from `final_set`, an additional data set was created that houses the mean values based
 on subject and activity - this data set does not containg the `data_set` variable. It determines
 the mean on aggregate data from both the `test` and `train` data sets.
